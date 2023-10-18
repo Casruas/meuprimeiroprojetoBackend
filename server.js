@@ -1,10 +1,10 @@
-const express = require("express")
+const express = require("express") 
 
-const app = express()
-const porta = 3333 
+const app = express() 
+const porta = 3333
 
 function mostraPorta() {
-  console.log("servidor criado e rodando na porta ", porta)  
-}
+    console.log ("Servidor criado e rodando na porta", porta) 
+} 
 
-app.listen(porta, mostraPorta )
+app.listen(porta, mostraPorta)
